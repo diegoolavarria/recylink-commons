@@ -1,0 +1,27 @@
+{
+  "name": "recylink-commons",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-input-mask": "^2.0.4"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna run clean",
+    "watch": "lerna run --parallel watch",
+    "test": "lerna run test",
+    "publish-all": "lerna publish --dist-tag latest --force-publish=*",
+    "release": "lerna publish --dist-tag latest",
+    "release-alpha": "lerna publish --dist-tag next"
+  },
+  "keywords": [],
+  "author": "diegoolavarria",
+  "license": "MIT"
+}
