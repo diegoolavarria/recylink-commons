@@ -19,7 +19,7 @@
     "lib": "src"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "repository": {
     "type": "git",
