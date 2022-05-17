@@ -1,6 +1,6 @@
 {
   "name": "recylink-commons",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -19,7 +19,8 @@
     "test": "lerna run test",
     "publish-all": "lerna publish --dist-tag latest --force-publish=*",
     "release": "lerna publish --dist-tag latest",
-    "release-alpha": "lerna publish --dist-tag next"
+    "release-alpha": "lerna publish --dist-tag next",
+    "create-test": "lerna create testi"
   },
   "keywords": [],
   "author": "diegoolavarria",
