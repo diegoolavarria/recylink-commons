@@ -12,5 +12,15 @@
   "dependencies": {
     "prop-types": "^15.8.1",
     "react": "^18.1.0"
+  },
+  "directories": {
+    "lib": "src"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:diegoolavarria/recylink-commons.git"
   }
 }

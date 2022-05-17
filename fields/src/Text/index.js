@@ -2,7 +2,7 @@ import React, {useRef, useState, useEffect, useCallback} from 'react'
 import PropTypes from 'prop-types'
 import InputMask from 'react-input-mask'
 import debounce from 'lodash/debounce'
-import Label from 'recylink-components'
+import {Label} from 'recylink-components'
 
 const Text = props => {
   const {delay, onChange, toUpperCase} = props
