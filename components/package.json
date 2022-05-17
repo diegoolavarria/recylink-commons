@@ -1,0 +1,16 @@
+{
+  "name": "recylink-components",
+  "version": "1.0.1",
+  "description": "Recylink components",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "diegoolavarria",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0"
+  }
+}
