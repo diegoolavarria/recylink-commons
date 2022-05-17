@@ -1,5 +1,5 @@
 {
-  "name": "recylink-commons",
+  "name": "@recylink-commons/root",
   "version": "1.0.8",
   "description": "",
   "main": "index.js",
