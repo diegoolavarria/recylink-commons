@@ -1,6 +1,6 @@
 {
   "name": "recylink-commons",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -17,6 +17,7 @@
     "clean": "lerna run clean",
     "watch": "lerna run --parallel watch",
     "test": "lerna run test",
+    "publish": "lerna publish --registry=https://npm.pkg.github.com/ ",
     "publish-all": "lerna publish --dist-tag latest --force-publish=*",
     "release": "lerna publish --dist-tag latest",
     "release-alpha": "lerna publish --dist-tag next",
