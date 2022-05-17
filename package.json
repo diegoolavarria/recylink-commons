@@ -1,14 +1,9 @@
 {
   "name": "recylink-commons",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "prop-types": "^15.8.1",
-    "react": "^18.1.0",
-    "react-input-mask": "^2.0.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "lerna": "^4.0.0"
   },

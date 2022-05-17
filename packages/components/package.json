@@ -1,26 +1,26 @@
 {
-  "name": "recylink-components",
-  "version": "1.0.1",
+  "name": "components",
+  "version": "1.0.7",
   "description": "Recylink components",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "diegoolavarria",
+  "author": "diegoolavarria <olavarriaubeda.diego@gmail.com>",
+  "homepage": "https://github.com/diegoolavarria/recylink-commons#readme",
   "license": "MIT",
-  "dependencies": {
-    "prop-types": "^15.8.1",
-    "react": "^18.1.0"
-  },
+  "main": "lib/index.js",
   "directories": {
-    "lib": "src"
+    "lib": "lib",
+    "test": "__tests__"
   },
   "files": [
-    "src"
+    "lib"
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:diegoolavarria/recylink-commons.git"
+    "url": "git+https://github.com/diegoolavarria/recylink-commons.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/diegoolavarria/recylink-commons/issues"
   }
 }
